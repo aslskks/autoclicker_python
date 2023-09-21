@@ -12,7 +12,7 @@ class AutoClickerApp:
         self.label.pack(pady=10)
 
         # Botón para activar/desactivar
-        self.button = tk.Button(root, text="Activa perro", command=self.toggle_auto_click)
+        self.button = tk.Button(root, text="Activar", command=self.toggle_auto_click)
         self.button.pack()
 
         # Variable para rastrear el estado del auto clicker
